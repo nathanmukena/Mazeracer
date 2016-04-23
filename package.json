@@ -1,0 +1,15 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "*",
+    "jquery": "2.1.0",
+    "jsdom": "*",
+    "socket.io": "*",
+    "ws": "^1.0.1",
+    "body-parser":"*",
+    "client-sessions":"*",
+    "express": "*",
+    "express-session": "*"
+  }
+}

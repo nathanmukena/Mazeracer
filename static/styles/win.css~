@@ -1,0 +1,41 @@
+.playAgain-button-circle {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    border:10px solid #cfdcec;
+    overflow:hidden;
+    
+    background: #4679BD; 
+    box-shadow: 0 0 3px gray;   
+    
+    line-height: 40px;
+    cursor: pointer;
+    
+    position: relative;
+    margin: 0 auto;
+  
+	color: brown;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+}
+
+
+.playAgain-button-circle:hover {
+	background:#30588e;
+}
+
+
+.you-won-image{
+    
+    border-radius:100%; 
+    margin:auto; 
+    height:400px; 
+    width:400px; 
+    position: relative;
+    align-self: center; 
+    background-image: url('/static/images/imgYouLost.jpg');
+    
+}
+

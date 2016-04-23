@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maze Runner</title>
+    <link rel="shortcut icon" href="/static/images/favicon.png" type="image/x-icon" />
+    <link href="/static/styles/mazerunner.css" rel="stylesheet">
+    <img id="title" src="/static/images/MazeRunnerTitle.gif"> 
+    <!--from en.bloggif.com/text-->
+    <!-- MUSIC -->
+    <div class = "play" id="play"> Pause </div>
+    <div id="main">
+        <div id="chatroom" class="halfDiv">
+            <div id="ChatHistory" class="chatItem"></div>
+            <div class="chatItem">
+                <form id="send-message">
+                    <input id="message" class="formItem"/>
+                    <input type="submit" id="sendMessage" class="formItem" value="Send"/>
+                </form>
+            </div>
+            
+        </div>
+        <div id="canvasHolder" class="halfDiv">
+            <canvas id="canvas" width="500" height="500">
+                HTML5 Canvas.
+            </canvas>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="/static/js/game.js"></script>
+</head>
+</html>

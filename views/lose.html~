@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+</head>
+<!-- DO NOT ALTER ANY OF THE HTML BELOW -->
+<body style="background-color: black; height: 100%; width: 100%;">
+    <div id="you won image" style=" border-radius:100%; margin:auto; height:400px; width:400px; position: relative;
+    align-self: center; background-image: url('../static/images/imgYouLost.jpg')">
+        <button style="position:relative;  margin: 120px; width: 20%" type="button" onclick="window.location.href = 'game.html'">
+            Play Again</button>
+    </div>
+</body>
+</html>
